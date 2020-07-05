@@ -60,13 +60,13 @@ function App() {
         <div class="title">Greetings, pick a language!</div>
 
         <div class="btns">
-          <button type="button" class="btn btn-outline-primary btn-lg" name="en" onClick={handleChange}>English</button>
-          <button type="button" class="btn btn-outline-success btn-lg" name="ar" onClick={handleChange}>Arabic</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg" name="it" onClick={handleChange}>Italiano</button>
-          <button type="button" class="btn btn-outline-danger btn-lg" name="jap" onClick={handleChange}>Japanese</button>
-          <button type="button" class="btn btn-outline-warning btn-lg" name="fre" onClick={handleChange}>French</button>
-          <button type="button" class="btn btn-outline-info btn-lg" name="ger" onClick={handleChange}>German</button>
-          <button type="button" class="btn btn-outline-dark btn-lg" name="hin" onClick={handleChange}>Hindi</button>
+          <button type="button" class="btn btn-warning btn-lg" name="en" onClick={handleChange}>English</button>
+          <button type="button" class="btn btn-warning  btn-lg" name="ar" onClick={handleChange}>Arabic</button>
+          <button type="button" class="btn btn-warning  btn-lg" name="it" onClick={handleChange}>Italiano</button>
+          <button type="button" class="btn btn-warning  btn-lg" name="jap" onClick={handleChange}>Japanese</button>
+          <button type="button" class="btn btn-warning  btn-lg" name="fre" onClick={handleChange}>French</button>
+          <button type="button" class="btn btn-warning  btn-lg" name="ger" onClick={handleChange}>German</button>
+          <button type="button" class="btn btn-warning  btn-lg" name="hin" onClick={handleChange}>Hindi</button>
         </div>
 
 
