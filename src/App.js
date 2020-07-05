@@ -60,17 +60,42 @@ function App() {
         <div class="title">Greetings, pick a language!</div>
 
         <div class="btns">
-          <button type="button" class="btn btn-warning btn-lg" name="en" onClick={handleChange}>English</button>
-          <button type="button" class="btn btn-warning  btn-lg" name="ar" onClick={handleChange}>Arabic</button>
-          <button type="button" class="btn btn-warning  btn-lg" name="it" onClick={handleChange}>Italiano</button>
-          <button type="button" class="btn btn-warning  btn-lg" name="jap" onClick={handleChange}>Japanese</button>
-          <button type="button" class="btn btn-warning  btn-lg" name="fre" onClick={handleChange}>French</button>
-          <button type="button" class="btn btn-warning  btn-lg" name="ger" onClick={handleChange}>German</button>
-          <button type="button" class="btn btn-warning  btn-lg" name="hin" onClick={handleChange}>Hindi</button>
+        <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning btn-md-lg my-1 w-100 font-weight-bold" name="en" onClick={handleChange}>English</button>
+          </div>
+
+          <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning btn-md-lg my-1 w-100 font-weight-bold" name="ar" onClick={handleChange}>Arabic</button>
+          </div>
+
+          <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning btn-md-lg my-1 w-100 font-weight-bold" name="it" onClick={handleChange}>Italiano</button>
+          </div>
+
+          <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning btn-md-lg my-1 w-100 font-weight-bold" name="jap" onClick={handleChange}>Japanese</button>
+          </div>
+
+          <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning btn-md-lg my-1 w-100 font-weight-bold" name="fre" onClick={handleChange}>French</button>
+          </div>
+
+          <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning btn-md-lg my-1 w-100 font-weight-bold" name="ger" onClick={handleChange}>German</button>
+          </div>
+
+          <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning btn-md-lg my-1 w-100 font-weight-bold" name="hin" onClick={handleChange}>Hindi</button>
+          </div>
+
+          <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning btn-md-lg my-1 w-100 font-weight-bold" name="esp" onClick={handleChange}>Hindi</button>
+          </div>
         </div>
-
-
-        
+      </div>
+    </div>
             <div class="text">{greetings}</div>
           </div> 
     </div>

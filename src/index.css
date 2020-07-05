@@ -17,21 +17,21 @@ code {
   background-image: url("bg.jpg"); /* The image used - important! */
   background-size: cover;
   position: relative; /* Needed to position the cutout text in the middle of the image */
-  height: 1200px; /* Some height */
-  width: 100%;
+  height: 100vh; /* Some height */
+  width: 100vw;
 }
 
 .text {
   background-color: white;
   color: black;
-  font-size: 5vw; /* Responsive font size */
+  font-size: 1.5rem; /* Responsive font size */
   font-weight: bold;
   margin: 0 auto; /* Center the text container */
   padding: 10px;
   width: 50%;
   text-align: center; /* Center text */
   position: absolute; /* Position text */
-  top: 50%; /* Position text in the middle */
+  top: 40%; /* Position text in the middle */
   left: 50%; /* Position text in the middle */
   transform: translate(-50%, -50%); /* Position text in the middle */
   mix-blend-mode: screen; /* This makes the cutout text possible */
@@ -41,7 +41,7 @@ code {
 .title {
   background-color: whitesmoke;
   color: black;
-  font-size: 2.5vw; /* Responsive font size */
+  font-size: 1.5rem; /* Responsive font size */
   font-weight: bold;
   text-align: center; /* Center text */
   position: absolute; /* Position text */
@@ -54,13 +54,23 @@ code {
 .btns {
 	display: flex;
 	justify-content: center;
-	top: 20%;
+	top: 15%;
 	position: relative;
 	width: 60%;
-	height: 10%;
 	left: 20%;
 }
 
+@media (orientation: landscape) {
+  .btns {
+    flex-direction: row;
+  }
+}
+
+@media (orientation: portrait) {
+  .btns {
+    flex-direction: column;
+  }
+}
 .btn-lg {
   font-size: 2rem;
   line-height: 1.5;
