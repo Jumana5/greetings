@@ -65,6 +65,14 @@ i18n.use(initReactI18next).init({
         Afternoon: "Buon pomeriggio",
         Night: "Buona notte",
       }
+    },
+    esp: {
+      translations: {
+        Morning: "Buenos días",
+        Evening: "buena noches",
+        Afternoon: "buenas tardes",
+        Night: "buenas noches",
+      }
     }
   },
   fallbackLng: "en",

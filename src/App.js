@@ -91,7 +91,7 @@ function App() {
           </div>
 
           <div class="col-6 col-md-3">
-          <button type="button" class="btn btn-warning btn-md-lg my-1 w-100 font-weight-bold" name="esp" onClick={handleChange}>Hindi</button>
+          <button type="button" class="btn btn-warning btn-md-lg my-1 w-100 font-weight-bold" name="esp" onClick={handleChange}>Spanish</button>
           </div>
         </div>
       </div>
